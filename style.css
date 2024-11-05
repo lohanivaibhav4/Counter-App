@@ -1,0 +1,58 @@
+body{
+    background-image: linear-gradient(#274251, #017498);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Bungee Spice", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#text{
+    margin-top: 10px;
+    width: 400px;
+    height: 600px;
+   background-image: url(appbg.png);
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   border-radius: 10px;
+   border: 2px dotted #DCA468;
+   border-bottom: 3px solid #DCA468;
+   
+}
+
+h1, h2, h3, p{
+    text-shadow: 0px 0px 5px black;
+    border: 2px dotted #DCA468;
+    border-radius: 10px;
+    padding: 5px 35px;
+}
+#count{
+    font-size: 50px;
+    
+}
+#creator{
+    border-bottom: 2px dotted #DCA468;
+}
+#creator:hover{
+    text-shadow: 5px 2px 5px black;
+}
+.btn{
+    background-color: #01759868;
+    font-family: inherit;
+    border: 2px dotted black;
+    border-radius: 15px;
+    padding: 12px 25px;
+    font-size: xx-large;
+    border-bottom: 2px dotted #DCA468;
+    text-shadow: 5px 2px 5px black;
+}
+.btn:hover{
+    background-color: #4cafcd69;
+    font-size: 1.9rem;
+}
+

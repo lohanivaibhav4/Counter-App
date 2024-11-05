@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Chicle&family=Plaster&display=swap" rel="stylesheet">
+    <title>Counter-App</title>
+</head>
+<body>
+    <div id="text">
+        <h1>People Entered</h1>
+        <h2 id="count">0</h2>
+        <p id="save-log">Saved :- </p>
+        <div id="btnDiv">
+            <button class="btn" id="save-btn" onclick="save()">Save</button>
+            <button class="btn" id="incr-btn" onclick="increment()">+</button>
+            <button class="btn" id="reset-btn" onclick="reset()" ondblclick="clearSave()">Reset</button>
+        </div>
+        
+    </div>
+    <h3>Created With &hearts; By <span id="creator">Vaibhav Lohani</span></h3>
+    <script src="index.js"></script>
+</body>
+</html>
